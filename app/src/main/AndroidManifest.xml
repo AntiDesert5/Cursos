@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Constancia"></activity>
+        <activity android:name=".Datos" />
+        <activity android:name=".OpcionesElegir" />
+        <activity android:name=".RegistrarDatos" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
