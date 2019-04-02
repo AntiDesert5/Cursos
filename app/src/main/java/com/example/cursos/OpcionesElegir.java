@@ -17,11 +17,11 @@ public class OpcionesElegir extends AppCompatActivity implements View.OnClickLis
     public void onClick(View v) {
         switch (v.getId()){
             case (R.id.editDat):
-                Intent intent = new Intent(OpcionesElegir.this,RegistrarDatos.class);
+                Intent intent = new Intent(OpcionesElegir.this, ActualizarDatos.class);
                 startActivity(intent);
                 break;
             case (R.id.impCons):
-                Intent intent2 = new Intent(OpcionesElegir.this,RegistrarDatos.class);
+                Intent intent2 = new Intent(OpcionesElegir.this, ActualizarDatos.class);
                 startActivity(intent2);
                 break;
         }

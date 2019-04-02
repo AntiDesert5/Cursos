@@ -28,7 +28,7 @@
                     android:id="@+id/Nombre"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/prompt_email"
+                    android:hint="@string/nombre"
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:maxLength="15"
@@ -75,6 +75,23 @@
 
 
                 <AutoCompleteTextView
+                    android:id="@+id/centrouni"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/centro_uni"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:maxLength="25"
+                    android:singleLine="true"
+                    android:textColor="@color/colorletras"/>
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <AutoCompleteTextView
                     android:id="@+id/Emaildat"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -98,13 +115,18 @@
                     android:inputType="textPassword"
                     android:maxLines="1"
                     android:singleLine="true"
+                    android:maxLength="12"
                     android:textColor="@color/colorletras"/>
 
             </android.support.design.widget.TextInputLayout>
             <Button
+                android:id="@+id/aceptar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=""
+                android:text="@string/aceptar"
+                android:textColor="@color/colorletras"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
                 android:background="@color/colorbutton"/>
 
 

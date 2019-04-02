@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case (R.id.nuevouser):
-                Intent intent = new Intent(MainActivity.this,RegistrarDatos.class);
+                Intent intent = new Intent(MainActivity.this,Datos.class);
                 startActivity(intent);
                 break;
             case (R.id.iniciosesion):
