@@ -27,10 +27,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case (R.id.nuevouser):
                 Intent intent = new Intent(MainActivity.this,Datos.class);
                 startActivity(intent);
+
                 break;
             case (R.id.iniciosesion):
                 Intent intent2 = new Intent(MainActivity.this,OpcionesElegir.class);
                 startActivity(intent2);
+
                 break;
         }
     }

@@ -9,8 +9,8 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class Datos extends AppCompatActivity implements View.OnClickListener {
-    Button aceptar;
-    AutoCompleteTextView nombre,appat,apmat,email,contra,centrouni;
+    private Button aceptar;
+    private AutoCompleteTextView nombre,appat,apmat,email,contra,centrouni;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +32,7 @@ public class Datos extends AppCompatActivity implements View.OnClickListener {
                 Toast.makeText(this, "Registro Creado", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(Datos.this,MainActivity.class);
                 startActivity(intent);
+                finish();
                 break;
         }
     }

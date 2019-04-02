@@ -5,6 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".OpcionesElegir"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:background="@drawable/fondo">
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +23,8 @@
             android:layout_height="wrap_content"
             android:textSize="15pt"
             android:text="Editar Datos"
-            style="@style/Widget.MaterialComponents.Button"/>
+            android:textColor="@color/colorletras"
+            android:background="@color/colorbutton"/>
 
         <Button
             android:id="@+id/impCons"
@@ -28,7 +33,8 @@
             android:layout_height="wrap_content"
             android:textSize="15pt"
             android:text="Imprimir Constancia"
-            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"/>
+            android:textColor="@color/colorletras"
+            android:background="@color/colorbutton"/>
 
 
     </LinearLayout>
