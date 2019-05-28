@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity"
-    android:background="@drawable/fondo">
+    >
 
     <!-- Login progress -->
     <ProgressBar
@@ -73,7 +73,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/usuario"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:backgroundTint="@color/colorPrimary"/>
             <Button
                 android:id="@+id/nuevouser"
                 style="?android:textAppearanceSmall"
@@ -81,7 +82,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="Nuevo Usuario"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:background="@color/colorbutton"/>
 
         </LinearLayout>
     </ScrollView>
